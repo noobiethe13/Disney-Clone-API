@@ -9,7 +9,7 @@ app.use(cors());
 const PORT = process.env.PORT || 3000;
 
 const movieBaseUrl = "https://api.themoviedb.org/3";
-const api_key = '2ec0d66f5bdf1dd12eefa0723f1479cf';
+const api_key = 'your-api-key';
 
 const movieByGenreBaseURL = `${movieBaseUrl}/discover/movie?api_key=${api_key}`;
 
